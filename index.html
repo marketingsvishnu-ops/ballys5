@@ -1,123 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MULTICRIC Support</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bally's Bonus Offer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #7b0000, #111);
+      color: #fff;
+      text-align: center;
+    }
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
+    .container {
+      max-width: 520px;
+      margin: auto;
+      padding: 30px 20px;
+    }
 
-body{
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1600') center center/cover no-repeat;
-}
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
 
-.overlay{
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.65);
-}
+    h1 {
+      font-size: 32px;
+      color: #ffd700;
+      margin-bottom: 10px;
+    }
 
-.card{
-    position:relative;
-    z-index:2;
-    width:90%;
-    max-width:520px;
-    background:rgba(255,255,255,.08);
-    backdrop-filter:blur(10px);
-    border-radius:24px;
-    padding:30px;
-    text-align:center;
-    color:#fff;
-    border:1px solid rgba(255,255,255,.15);
-}
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
 
-.logo{
-    font-size:42px;
-    font-weight:900;
-    color:#ffc400;
-    margin-bottom:15px;
-    letter-spacing:2px;
-}
+    .bonus {
+      background: #fff;
+      color: #111;
+      border-radius: 14px;
+      padding: 16px;
+      margin: 14px 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
 
-h1{
-    margin-bottom:15px;
-    font-size:30px;
-}
+    .bonus span {
+      color: #b00000;
+      font-size: 28px;
+      display: block;
+    }
 
-p{
-    line-height:1.7;
-    color:#e5e5e5;
-}
+    .cta {
+      display: inline-block;
+      margin-top: 25px;
+      background: #25D366;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 50px;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+    }
 
-.btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:16px 30px;
-    background:#25D366;
-    color:#fff;
-    text-decoration:none;
-    border-radius:50px;
-    font-size:18px;
-    font-weight:bold;
-    transition:.3s;
-}
+    .cta:hover {
+      background: #1ebe5d;
+    }
 
-.btn:hover{
-    background:#1ebe5d;
-    transform:scale(1.05);
-}
+    .trust {
+      margin-top: 22px;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #ddd;
+    }
 
-.features{
-    margin-top:25px;
-    text-align:left;
-}
-
-.features div{
-    background:rgba(255,255,255,.08);
-    padding:12px;
-    margin-bottom:10px;
-    border-radius:12px;
-}
-</style>
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #aaa;
+    }
+  </style>
 </head>
-
 <body>
 
-<div class="overlay"></div>
+  <div class="container">
+    <div class="card">
+      <h1>🔥 Bally's Exclusive Offer</h1>
+      <p class="subtitle">Claim your bonus instantly on WhatsApp</p>
 
-<div class="card">
+      <div class="bonus">
+        <span>10%</span>
+        First Time Deposit Bonus
+      </div>
 
-<div class="logo">BALLYS</div>
+      <div class="bonus">
+        <span>2%</span>
+        Refill Bonus
+      </div>
 
-<h1>Contact Our Support Team</h1>
+      <div class="bonus">
+        <span>5%</span>
+        Weekly Losing Bonus
+      </div>
 
-<p>
-Get assistance, information, and answers to your questions from our support team.
-</p>
+      <a class="cta" href="https://wa.me/+918141897387?text=Hi%20I%20want%20to%20claim%20Ballys%20bonus" target="_blank">
+        💬 Claim on WhatsApp
+      </a>
 
-<a class="btn"
-href="https://wa.me/+918141897387?text=Hello%20BALLYS%2C%20I%20would%20like%20more%20information.">
-Contact on WhatsApp
-</a>
+      <div class="trust">
+        ✅ Fast Activation<br>
+        ✅ Easy WhatsApp Support<br>
+        ✅ Weekly Rewards
+      </div>
+    </div>
 
-<div class="features">
-    <div>✅ Fast Support</div>
-    <div>✅ Easy Assistance</div>
-    <div>✅ Community Updates</div>
-    <div>✅ User Guidance</div>
-</div>
-
-</div>
+    <footer>
+      Terms & conditions apply. 18+ only.
+    </footer>
+  </div>
 
 </body>
 </html>
